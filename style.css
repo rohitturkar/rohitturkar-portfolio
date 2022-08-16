@@ -9,13 +9,10 @@ body {
 }
 
 :root {
-    --primary-color: #3b82f6;
+    /* --primary-color: #3b82f6; */
+    --primary-color: rgb(84, 80, 171);
     --dark-grey: #6b7280;
     --off-white: #f3f4f6;
-}
-
-hr {
-    margin: 3rem 0rem;
 }
 
 /* container */
@@ -47,8 +44,6 @@ hr {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 2px solid var(--primary-color);
-    
-
 }
 
 /* lists */
@@ -73,7 +68,7 @@ hr {
 
 .navigation .brand-name {
     font-weight: bold;
-    font-size: medium;
+    font-size:1.5rem;
 }
 
 .navigation .nav-pills {
