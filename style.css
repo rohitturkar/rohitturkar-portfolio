@@ -9,8 +9,7 @@ body {
 }
 
 :root {
-    /* --primary-color: #3b82f6; */
-    --primary-color: rgb(84, 80, 171);
+    --primary-color:#7e68f9;
     --dark-grey: #6b7280;
     --off-white: #f3f4f6;
 }
@@ -114,16 +113,15 @@ body {
     margin:1.2rem 0rem;
 }
 
+.section img{
+    display:block;
+    width:40%;
+
+}
+
 .ow {
     background-color: var(--off-white);
 }
-
-.section h1{
-    text-align:center;
-}
-/* .section p{
-    text-align:center;
-} */
 
 .project-container{
     padding:2rem;
