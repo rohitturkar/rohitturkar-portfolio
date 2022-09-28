@@ -140,6 +140,7 @@ body {
 }
 .footer ul{
     padding:0px;
+    padding-inline-start:0px
 }
 
 .footer-header{
@@ -147,6 +148,7 @@ body {
     font-size:medium;
 }
 .footer .link{
+    font-size:1.2rem;
     text-decoration:none;
     color:white;
     padding:0 rem 0.8rem;
