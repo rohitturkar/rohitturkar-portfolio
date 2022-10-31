@@ -97,6 +97,14 @@ body {
     width:100%;
     display: block;
     margin: auto;
+    border-radius:15rem;
+}
+.hero .hero-image-1 {
+    max-width: 300px;
+    width:100%;
+    display: block;
+    margin: auto;
+    border-radius:15rem;
 }
 
 .hero .hero-heading {
