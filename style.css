@@ -4,12 +4,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Noto Sans', sans-serif;
-    margin:0px;
+    margin: 0px;
 
 }
 
 :root {
-    --primary-color:#7e68f9;
+    --primary-color: #7e68f9;
     --dark-grey: #6b7280;
     --off-white: #f3f4f6;
 }
@@ -17,6 +17,7 @@ body {
 /* container */
 .container {
     padding: 0rem 1rem;
+
 }
 
 .container-center {
@@ -24,19 +25,28 @@ body {
     margin: auto;
 }
 
+.project-container {
+    padding: 2rem;
+}
+
+#project-image-container {
+    display: block;
+    max-width: 50%;
+}
+
 /* links */
 .links {
     display: inline-block;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin:0.2rem;
+    margin: 0.2rem;
 }
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-    border:2px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
 }
 
 .link-secondary {
@@ -59,7 +69,6 @@ body {
 /* navigation */
 
 .navigation {
-    background-color: var(--primary-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -67,12 +76,13 @@ body {
 
 .navigation .brand-name {
     font-weight: bold;
-    font-size:1.5rem;
+    font-size: 1.5rem;
+    color: var(--primary-color)
 }
 
 .navigation .nav-pills {
-    text-align: right;
-    margin-right:0.5rem;
+    text-align: center;
+
 }
 
 .navigation .link {
@@ -80,10 +90,13 @@ body {
     text-decoration: none;
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
+    background-color: var(--dark-grey);
+    border-radius: 0.5rem;
 }
 
 .navigation .link-active {
     font-weight: bold;
+    background-color: var(--primary-color);
 }
 
 /* header */
@@ -93,18 +106,20 @@ body {
 }
 
 .hero .hero-image {
-    max-width: 500px;
-    width:100%;
+    max-width: 400px;
+    width: 100%;
     display: block;
     margin: auto;
-    border-radius:15rem;
+
 }
+
 .hero .hero-image-1 {
     max-width: 300px;
-    width:100%;
+    width: 100%;
     display: block;
     margin: auto;
-    border-radius:15rem;
+    border-radius: 15rem;
+    box-shadow: 2px 2px 7px 3px #888888;
 }
 
 .hero .hero-heading {
@@ -112,52 +127,120 @@ body {
     text-align: center;
     color: var(--dark-grey);
     padding: 1rem;
+    font-size: 1.5rem;
 }
 
+.fa-mug-saucer {
+    color: rgb(227, 197, 50);
+    font-size: 1.6rem;
+    margin: 0 0.5rem;
+}
+
+.fa-laptop {
+    color: rgb(99, 84, 184);
+    font-size: 1.6rem;
+    margin: 0 0.5rem;
+}
+
+.fa-html5 {
+    color: rgb(196, 145, 49);
+    font-size: 2.8rem;
+    margin: 0 0.5rem;
+}
+
+.fa-css3 {
+    color: rgb(49, 74, 196);
+    font-size: 2.8rem;
+    margin: 0 0.5rem;
+}
+
+.fa-square-js {
+    color: rgb(231, 206, 21);
+    font-size: 2.8rem;
+    margin: 0 0.5rem;
+}
+
+.fa-react {
+    color: rgb(21, 28, 231);
+    font-size: 2.8rem;
+}
+
+.icon-fotter {
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.fa-js {
+    color: rgb(189, 189, 3);
+    font-size: 2rem;
+}
+
+.project-html-icon {
+    color: rgb(234, 150, 23);
+    font-size: 2rem;
+}
+
+.project-css-icon {
+    color: rgb(23, 90, 234);
+    font-size: 2rem;
+}
+.project-react-icon {
+    color: rgb(23, 90, 234);
+    font-size: 2rem;
+}
 
 /* section */
 
 .section {
     padding: 2rem;
-    margin:1.2rem 0rem;
+    margin: 1.2rem 0rem;
 }
 
-.section img{
-    display:block;
-    max-width:100%;
+.section .container #span {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.section img {
+    display: block;
+    max-width: 100%;
 
 }
 
 .ow {
     background-color: var(--off-white);
+    border-radius: 2rem;
+    box-shadow: 5px 3px 4px 0px #888888;
 }
 
-.project-container{
-    padding:2rem;
-}
+
 
 /* footer */
-.footer{
-    background-color:var(--primary-color);
-    text-align:center;
-    color:white;
-    padding:2.5rem 2rem;
-    margin-top:9rem;
-    border-top-right-radius:1rem;
-    
-}
-.footer ul{
-    padding:0px;
-    padding-inline-start:0px
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 2.5rem 2rem;
+    margin-top: 9rem;
+    border-top-right-radius: 1rem;
+
 }
 
-.footer-header{
-    font-weight:bold;
-    font-size:medium;
+.footer ul {
+    padding: 0px;
+    padding-inline-start: 0px
 }
-.footer .link{
-    font-size:1.2rem;
-    text-decoration:none;
-    color:white;
-    padding:0 rem 0.8rem;
+
+.footer-header {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.footer .link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    padding: 0 rem 0.8rem;
 }
