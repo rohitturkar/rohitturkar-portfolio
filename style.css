@@ -53,6 +53,11 @@ body {
     border: 2px solid var(--primary-color);
 }
 
+.link-resume{
+    font-size: 1rem;
+    margin-top:1.5rem;
+}
+
 /* lists */
 #project_ul{
     margin-block-start: 0;
