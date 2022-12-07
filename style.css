@@ -5,6 +5,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Noto Sans', sans-serif;
     margin: 0px;
+    /* background-color: #6b7280; */
 
 }
 
@@ -139,6 +140,7 @@ body {
     padding: 1rem;
     font-size: 1.5rem;
 }
+
 
 .fa-mug-saucer {
     color: rgb(227, 197, 50);
